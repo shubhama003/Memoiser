@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@+styles/AppTheme.base"
+    tools:context="com.example.shubhama003.memonew.SplashScreen">
+
+    <TextView android:text="Memoise It"
+        android:layout_width="wrap_content"
+        android:textColor="#111"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splashscreen" />
+
+</RelativeLayout>
